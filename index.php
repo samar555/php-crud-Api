@@ -30,8 +30,8 @@
       <td><?php echo $row["lastname"];?></td>
       <td><?php echo $row["occupation"];?></td>
       <td>
-        <a href="update.php" class="btn btn-primary">Update</a>
-        <a href="delete.php" class="btn btn-danger">Delete</a>
+        <a href="update.php?id=<?php echo $row["id"]?>" class="btn btn-primary">Update</a>
+        <a href="delete.php?user_id=<?php echo $row["id"]?>" class="btn btn-danger">Delete</a>
       </td>
     </tr>
   <?php
